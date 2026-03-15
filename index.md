@@ -1,4 +1,4 @@
-# REPLACE THIS WITH YOUR GAME NAME
+# Linked Lunancy
 
 ## Elevator Pitch
 
@@ -6,12 +6,12 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 ## Influences (Brief)
 
-- *Influence #1*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
-- *Influence #2*:
-  - Medium: *(Television, Games, Literature, Movies, etc.)*
-  - Explanation: *In one paragraph or less, explain why this is an influence.*
+- *Influence #1*: Pipes
+  - Medium: Video Game
+  - Explanation: Pipes is a logic puzzel where you must connect the pipes to create a path that connects all the pipes. Similarly, Linked Lunancy is about building a bridge to connect two sides and using logic to build the bridge. 
+- *Influence #2*: Tetris 99 
+  - Medium: Video Game
+  - Explanation: Tetris 99 is about mathcing and connecting pieces to clear blocks as pieces fall down. The more blocks cleared, the more points earned. Similarly, Linked Lunancy will have bridge pieces that are continuously given to the player and they must use those pieces to connect the bridge. Loss points/fail when bridge piece nodes are not correctly connected
 - *Influence #3*:
   - Medium: *(Television, Games, Literature, Movies, etc.)*
   - Explanation: *In one paragraph or less, explain why this is an influence.*
@@ -20,9 +20,9 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 *Give a very high-level description of any core gameplay mechanics*
 
-- *Gameplay Mechanic #1*
-- *Gameplay Mechanic #2*
-- *Gameplay Mechanic #3*
+- Players must click and drag the connectors (pointers) between each bridge tile to build the bridge 
+- Players must safely remove "bad" tiles to prevent the bridge from collapsing/losing points
+- Players must be able to traverse the bridge based on given code statements and arrive at the correct location (i.e. spot= head->next->next->prev)
 - *Gameplay Mechanic #4*
 
 # Learning Aspects
@@ -31,32 +31,47 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 *Briefly list any and all of the disciplines and learning domains for this subject.*
 
+- General Python programming knowledge
+- General Typescript/Javascript programming knowledge
+- Arrays and data structure purpose
+
 ## Target Audiences
 
 *Who are your learners?*
+
+- Novice and Intermediate computer programmers
+- Logic puzzle game players
 
 ## Target Contexts
 
 *Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
 
+- Used in a data structure class as in-class learning activity
+- An extra resource tool to understand the concepts behind linked lists
+
 ## Learning Objectives
 
 *Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
 
-- *Short Name*: *Formal Learning Objective #1*
-- *Short Name*: *Formal Learning Objective #2*
-- *Short Name*: *Formal Learning Objective #3*
+- *Singly and Doubly Linked List Structure*: *Players will be able to identify what kind of linked list (double or single) is given to them based on the structure*
+- *Linked List Traversal*: *Students will be able to traverse through a linked list from either the head or tail of the linked list from code statements of "prev" and "next"*
+- *Insertion and Deletion*: *Students will be able to insert or delete nodes at the beginning, end, or middle of a linked list while keeping the data structure intact and functioning as intended*
 
 ## Prerequisite Knowledge
 
 *What do they need to know prior to trying this game?*
 
-- *Prerequisite Learning Objective #1*
-- *Prerequisite Learning Objective #2*
+- *Prior to the game, players should explain the differences and similarities between a linked list and an array*
+- *Prior to the game, players must be a able to create and identify the conponents of objects in either python/javascript/typescript/C/C++ or some other programming language that uses objects*
+- *another prerequisite*
 
 ## Assessment Measures
 
 *Clearly identify a set of viable assessment questions AND their grading logic. The questions should be specific examples of the kinds of questions that your game could conceivably improve student performance on. For the grading logic, it could be the correct answer, a rubric for evaluating the answer, or exact logic for deriving answers.*
+
+- *Given a linked list and statements traversing through the linked list, correctly identify the resulting node (logic)*
+- *Given a node and linked list, insert the node while maintaining the proper linked list structure (rubic)*
+- *third assessment measure*
 
 
 
@@ -64,9 +79,9 @@ Replace this with a one sentence pitch for your game. Pretend that your were pit
 
 *Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
 
-- *Reason #1*
-- *Reason #2*
-- *Reason #3*
+- *Provides a visually appealing and fun way to learn linked list*
+- *the game can be played by people outside of the computer science field and be played by people who enjoy logic puzzles*
+- *Offers various modes of playing to learn different concepts including doubly linked list and singly linked list*
 - *Reason #4*
 - *etc.*
 
