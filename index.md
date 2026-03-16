@@ -1,3 +1,4 @@
+
 # Linked Lunancy
 
 ## Elevator Pitch
@@ -15,9 +16,10 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 - *Influence #3*: Human Resource Machine
   - Medium: Video Game
   - Explanation: Human Resource Machine teaches programming logic through interactive puzzles rather than lectures. Linked Lunacy follows a similar approach by teaching linked list operations through visual experimentation, mistake correction, and level based challenges.
-- *Influence #4*: Earthbound  
+- *Influence #4*: Earthbound
   - Medium: Video Game
-  -Explanation: The look of the characters and aesthetic will be heavily influenced by Earthbound to create that game style look/aesthetic
+  - Explanation: the character and art design is meant to be pixel similar to that of Earthbound to create and warm and fun game art style. Also gives it a more authentic game feel and in general more inviting.   
+
 ## Core Gameplay Mechanics (Brief)
 
 - Players must click and drag the connectors (pointers) between each bridge tile to build the bridge 
@@ -175,6 +177,14 @@ A traveler needs to cross a broken bridge made of connected tiles, but many of t
 
 *Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
 
+https://drive.google.com/file/d/1G_LkTDzM-ff1XqdCN4sFte8nYnCOAZKN/view?usp=sharing
+A rough sketch of a storyboard of the game
+- *Scene 1*: The inital state of the game in which the player is given a gorup of bridge tiles (nodes) and must place and connect them correctly through a click and drag function
+- *Scene 2*: The second scene shows a successfully completed bridge 
+- *Scene 3*: The third scene is the player given statements of code the shows the correct in order in which to travel the bridge as to not get blown off
+- *Scene 4*: Scene 4 is an example of the player landing on the correct tile node and progressing to the next stage
+- *Scene 5*: The 5th scene is a different level in which the player is given a broken bridge and must correctly connect the tiles
+- *Scene 6*: The 6th scene is what happens when the bridge is incorrectly fixed in which one of the pointers snaps and bridge collapses as and the player falls into the river
 # Assets Needed
 
 ## Aesthetics
@@ -188,8 +198,9 @@ The overall atmosphere should feel adventurous and outdoorsy, with warm natural 
 ## Graphical
 
 - Characters List:
-  - Player avatar or system guide
-  - Node repair assistant character
+  - *Alex, a playable character with brown hair, blue eyes, a red striped shirt, jeans, and red converse-like shoes. Standard all around character* ![Alt text](Alex_standing.png)
+  - *Amy, another playable character with long curly black hair, yellow shirt, and brown pants.*
+  - *Neo, another playable character with a blond hair, a blue shirt, and black pants*
 - Textures
   - Node tile textures
   - Pointer connector textures
