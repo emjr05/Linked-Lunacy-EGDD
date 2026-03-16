@@ -20,19 +20,16 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
   -Explanation: The look of the characters and aesthetic will be heavily influenced by Earthbound to create that game style look/aesthetic
 ## Core Gameplay Mechanics (Brief)
 
-*Give a very high-level description of any core gameplay mechanics*
-
 - Players must click and drag the connectors (pointers) between each bridge tile to build the bridge 
 - Players must safely remove "bad" tiles to prevent the bridge from collapsing/losing points
 - Players must be able to traverse the bridge based on given code statements and arrive at the correct location (i.e. spot= head->next->next->prev)
 - Bridge tiles represent nodes within a linked list and connectors represent pointers that link nodes together
 - Players must ensure that node coneections maintain a valid linked list structure
 
+
 # Learning Aspects
 
 ## Learning Domains
-
-*Briefly list any and all of the disciplines and learning domains for this subject.*
 
 - General Python programming knowledge
 - General Typescript/Javascript programming knowledge
@@ -43,16 +40,12 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 
 ## Target Audiences
 
-*Who are your learners?*
-
 - Novice and Intermediate computer programmers
 - Logic puzzle game players
 - Users interested in data structures
 - Self-taught programmers seeking visual ways to undertand abstract programming
 
 ## Target Contexts
-
-*Describe what kinds of formal and informal learning contexts this will be used in (e.g., courses, k-12 computer labs during free time).*
 
 - Used in a data structure class as in-class learning activity
 - An extra resource tool to understand the concepts behind linked lists
@@ -61,16 +54,12 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 
 ## Learning Objectives
 
-*Remember, Learning Objectives are NOT simply topics. They are statements of observable behavior that a learner can do after the learning experience. You cannot observe someone "understanding" or "knowing" something.*
-
 - *Singly and Doubly Linked List Structure*: *Players will be able to identify what kind of linked list (double or single) is given to them based on the structure*
 - *Linked List Traversal*: *Students will be able to traverse through a linked list from either the head or tail of the linked list from code statements of "prev" and "next"*
 - *Insertion and Deletion*: *Students will be able to insert or delete nodes at the beginning, end, or middle of a linked list while keeping the data structure intact and functioning as intended*
 - *Pointer Relationships*: *Players will be able to identify whether pointer connections between nodes are correct or broken*
 
 ## Prerequisite Knowledge
-
-*What do they need to know prior to trying this game?*
 
 - *Prior to the game, players should explain the differences and similarities between a linked list and an array*
 - *Prior to the game, players must be a able to create and identify the conponents of objects in either python/javascript/typescript/C/C++ or some other programming language that uses objects*
@@ -79,18 +68,13 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 
 ## Assessment Measures
 
-*Clearly identify a set of viable assessment questions AND their grading logic. The questions should be specific examples of the kinds of questions that your game could conceivably improve student performance on. For the grading logic, it could be the correct answer, a rubric for evaluating the answer, or exact logic for deriving answers.*
-
 - *Given a linked list and statements traversing through the linked list, correctly identify the resulting node (logic)*
 - *Given a node and linked list, insert the node while maintaining the proper linked list structure (rubic)*
 - *Given a broken linked list, correctly repair the pointer connection so that the list can be fully traversed (logic)*
 - *Given a linked list structure, identify whether the structure represents a singly or doubly linked list (logic)*
 
 
-
 # What sets this project apart?
-
-*Give some reasons why this game is not like every other game out there. Whether the learning objective is unique, the gameplay mechanics are new, or what. You should persuade the reader that your game is novel and worthy of development. Consider arguments that would be persuasive to a Venture Capitalist, Teacher, or Researcher. These might be focused on learning needs, too.*
 
 - *Provides a visually appealing and fun way to learn linked list*
 - *The game can be played by people outside of the computer science field and be played by people who enjoy logic puzzles*
@@ -98,21 +82,19 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 - *Transforms abstract pointer relationships into visual and interactive gameplay mechanics*
 - *Encourages experimentation and problem solving rather than memorization of code syntax*
 
+
 # Player Interaction Patterns and Modes
 
 ## Player Interaction Pattern
-
-*Describe how people play your game, how many players are involved at once, how they interact with the system works, etc.*
 
 Players interact with the game using a mouse and keyboard. Nodes and pointer connectors can be selected, dragged, or repositioned depending on the objective of the level. Most levels involve inspecting a chain of nodes, modifying pointer connections, inserting new nodes, or removing incorrect nodes while maintaining a valid linked list structure. The game is designed primarily as a single player experience where the player solves logic puzzlesinvoling nore manipulation. Immediate feedback is given when connections are valid or incorrect, allowing players to learn through trial, correction, and iteration.
 
 ## Player Modes
 
-*Your game has one or more player modes. Describe each discrete mode, considering things like menus too. Generally describe the transitions between modes too.*
-
 - *Main Menu*: *Allows players to start the game through choosign a type of linked list challenge.*
 - *Gameplay Mode*: *Players solve linked list puzzles involving traversal, insertion, deletion, and structure identification. As players answer questions correctly, the difficulty increases by introducing more complex linked list operations and larger node structures.*
 - *Game Over/Results*: *After the player makes too mny mistakes or completes a sequence of puzzles, the game displays the player's performance statistics such as number of correct answers, accuracy, and highest difficulty reached.*
+
 
 # Gameplay Objectives
 
@@ -126,9 +108,8 @@ Players interact with the game using a mouse and keyboard. Nodes and pointer con
     - Description: *Follow traversal instructions and identify the correct resulting node.*
     - Alignment: *Supports the linked list traversal learning objective.*
 
-# Procedures/Actions
 
-*Describe the control scheme and what actions a user can take in the game.*
+# Procedures/Actions
 
 Players interact with the game primarily using a mouse. The player is presented with a linked list structure represented visually as connected bridge tiles (nodes). Each tile contains pointer connectors that represent the relationship between nodes.
 
@@ -140,9 +121,8 @@ Players can perform several actions during gameplay:
 - Submit their answer to confirm the solution
 - Progress to the next puzzle if the solution is correct
 
-# Rules
 
-*What resources are available to the player that they make use of?  How does this affect gameplay? How are these resources finite?*
+# Rules
 
 Players are presented with puzzles involving linked list structures. Each puzzle asks the player to perform a specific task such as identifying the correct node after traversal, inserting a node in the correct location, or deleting a node while maintaining proper pointer connections.
 
@@ -150,55 +130,44 @@ The player must ensre that all nodes remain connected correctly so the linked li
 
 The game tracks the number of incorrect answers the player makes. If the player exceeds the allowed number of mistakes, the game ends and the player is shown their results. Correct answers increase the player's score and gradually increase the difficulty of future puzzles.
 
+
 # Objects/Entities
 
-*What other things are in the world that you need to design? These may or may not directly translate to actual objects and classes.*
-
-Node Tiles – Represent elements in the linked list and contain stored values.
-Pointer Connectors – Visual links representing the next or prev references between nodes.
-Head Indicator – Marks the starting point of traversal within the linked list.
-Tail Indicator – Marks the final node of the linked list.
-Insertable Nodes – New nodes that appear during insertion puzzles.
-Removable Nodes – Nodes that must be deleted during deletion puzzles.
-Traversal Marker – A visual indicator that moves along nodes during traversal tasks.
-Score Counter – Tracks the number of correct answers achieved by the player.
+- Node Tiles: Represent elements in the linked list and contain stored values.
+- Pointer Connectors: Visual links representing the next or prev references between nodes.
+- Head Indicator: Marks the starting point of traversal within the linked list.
+- Tail Indicator: Marks the final node of the linked list.
+- Insertable Nodes: New nodes that appear during insertion puzzles.
+- Removable Nodes: Nodes that must be deleted during deletion puzzles.
+- Traversal Marker: A visual indicator that moves along nodes during traversal tasks.
+- Score Counter: Tracks the number of correct answers achieved by the player.
 
 ## Core Gameplay Mechanics (Detailed)
 
 - *Pointer Connection System*: *Players interact with the linked list by dragging pointer connectors between nodes. These connectors represent the next or prev relationships within the linked list. Correct pointer connections allow the structure to function properly, while incorrect connections break the list and prevent traversal.*
 - *Traversal Challenges*: *Players are given traversal expressions similar to programming syntax, such as head -> next -> next. The player must determine which node the traversal ends on by following the pointer connections step by step through the linked list.*
 - *Node Insertion and Deletion*: *Players modify the linked list by inserting new nodes into the correct position or removing nodes from the structure. To succeed, players must update the surrounding pointer connections so the linked list remains valid and traversable.*
-
-    
+   
 ## Feedback
-
-*Explicitly describe what visual/audio/animation indicators there are that give players feedback on their progress towards their gameplay objectives (and ideally the learning objectives).*
 
 Players receive immediate visual feedback after performing actions. Correct pointer connections may glow or highlight to indicate a valid linked list structure. Incorrect connections may flash red or break visually to show that the structure is invalid. Traversal tasks may include animated movement across nodes so the player can visually follow the path taken through the linked list.
 
-*Describe what longer-term feedback you detect and give that guides the player in their learning and lets them know how they are doing in regards to the learning objectives.*
-
 After completing puzzles or reaching the end of a game session, players are shown performance statistics such as the number of correct answers, accuracy percentage, and the highest difficulty level reached. This allows players to track their improvement as they progress through increasingly difficult linked list challenges.
+
 
 # Story and Gameplay
 
 ## Presentation of Rules
 
-*Briefly describe how the player will learn the gameplay mechanics. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching mechanics iteratively and slowly.*
-
 The game introduces players to linked list mechanics gradually through puzzle progression. Early puzzles focus on simple traversal tasks involving small linked lists. As players solve puzzles correctly, the game introduces more complex actions such as inserting and deleting nodes. By learning through interaction with the linked list structures, players develop an intuitive understanding of how node connections and pointer relationships function.
 
 ## Presentation of Content
-
-*Briefly describe how the player will be taught the core material they are meant to learn. Avoid using walls of text, since people will not read them. Think instead of natural ways of teaching material iteratively and slowly.*
 
 The educational content is integrated directly into the puzzles themselves. Instead of reading explanations, players learn linked list concepts by solving increasingly complex problems involving traversal, insertion, and deletion.
 
 Visual representations of nodes and pointer connections help translate abstract programming concepts into interactive gameplay elements.
 
 ## Story (Brief)
-
-*The Summary or TL;DR version of below*
 
 A traveler needs to cross a broken bridge made of connected tiles, but many of the connections between the tiles are missing or incorrect. The player must repair and maintain the bridge by correctly connecting nodes so the traveler can safely cross from one side to the other.
 
@@ -208,41 +177,41 @@ A traveler needs to cross a broken bridge made of connected tiles, but many of t
 
 # Assets Needed
 
-## Aethestics
+## Aesthetics
 
-*Give a sense of the aesthetics of your game, the spirit and atmosphere. Use descriptive, evocative words that can help the reader understand the emotional response of your game.*
+The game takes place in a scenic mountain hiking environment where the player must repair sections of a broken wooden bridge to help a traveler safely cross from one side of a canyon to the other. The background features mountains, forests, cliffs, and flowing rivers, creating the feeling of a peaceful but adventurous journey.
+
+Bridge tiles represent sections of the bridge and appear as wooden planks connected by ropes or metal fasteners. Pointer connections between nodes are visually represented by ropes or glowing connectors that show how each bridge tile is linked to the next. Broken or incorrect connections may appear as loose ropes or damaged planks to visually communicate that the structure is unstable.
+
+The overall atmosphere should feel adventurous and outdoorsy, with warm natural colors such as greens, browns, and sky blues. The environment should evoke the feeling of exploring the mountains while solving puzzles that repair the bridge and allow the traveler to continue their journey.
 
 ## Graphical
 
-- Characters List
-  - *Characters 1*
-  - *Characters 2*
-  - *...*
-- Textures:
-  - *Texture 1*
-  - *Texture 2*
-  - *...*
-- Environment Art/Textures:
-  - *Environment Texture 1*
-  - *Environment Texture 2*
-  - *...*
-
+- Characters List:
+  - Player avatar or system guide
+  - Node repair assistant character
+- Textures
+  - Node tile textures
+  - Pointer connector textures
+  - Highlight effects for valid connections
+  - Error effects for invalid connections
+- Environment Art/Textures
+  - Mountain range background
+  - Interface panels for puzzle instructions
 
 ## Audio
 
-
-*Game region/phase/time are ways of designating a particularly important place in the game.*
-
 - Music List (Ambient sound)
-  - *Game region/phase/time*: *Example 1*, *Example 2*
-  - *Game region/phase/time*: *Example 3*, *Example 4*
+  - *Main Menu*: *calm digital ambience*
+  - *Gameplay*: *light puzzle-themed background music*
+  - *Results screen*: *short completion theme*
   
-*Game Interactions are things that trigger SFX, like character movement, hitting a spiky enemy, collecting a coin.*
-
 - Sound List (SFX)
-  - *Game Interaction*: *Example 1*, *Example 2*
-  - *Game Interaction*: *Example 3*, *Example 4*
-
+  - *Pointer connected*: *soft click*
+  - *Incorrect connection*: *error buzz*
+  - *Node inserted*: *pop or placement sound*
+  - *Node removed*: *dissolve sound*
+  - *Puzzle complete*: *success chime*
 
 # Metadata
 
