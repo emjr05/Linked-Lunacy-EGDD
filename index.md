@@ -2,7 +2,6 @@
 
 ## Elevator Pitch
 
-Replace this with a one sentence pitch for your game. Pretend that your were pitching your game to a executive going to the elevator, and you only had 60 seconds. You should not write more than a few sentences at most. Check [this resource](http://www.gameacademy.com/perfecting-indie-games-elevator-pitch/) for more information.
 Linked Lunacy is a puzzle based educational game where players repair, reorder, and traverse chains of nodes to learn how linked lists function through interactive problem solving.
 
 ## Influences (Brief)
@@ -16,7 +15,9 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 - *Influence #3*: Human Resource Machine
   - Medium: Video Game
   - Explanation: Human Resource Machine teaches programming logic through interactive puzzles rather than lectures. Linked Lunacy follows a similar approach by teaching linked list operations through visual experimentation, mistake correction, and level based challenges.
-
+- *Influence #4*: Earthbound  
+  - Medium: Video Game
+  -Explanation: The look of the characters and aesthetic will be heavily influenced by Earthbound to create that game style look/aesthetic
 ## Core Gameplay Mechanics (Brief)
 
 *Give a very high-level description of any core gameplay mechanics*
