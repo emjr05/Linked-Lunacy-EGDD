@@ -222,7 +222,7 @@ The overall atmosphere should feel adventurous and outdoorsy, with warm natural 
   - *Incorrect connection*: *error buzz*
   - *Node inserted*: *pop or placement sound*
   - *Node removed*: *dissolve sound*
-  - *Puzzle complete*: *success chime*
+  - *Puzzle complete*: *success chime that invokes successful journey* Example: https://www.youtube.com/watch?v=-sspGNVHl8E&list=RD-sspGNVHl8E&start_radio=1
 
 # Metadata
 
