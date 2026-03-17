@@ -7,16 +7,16 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 
 ## Influences (Brief)
 
-- *Influence #1*: Pipes
+- Influence #1: Pipes
   - Medium: Video Game
   - Explanation: Pipes is a logic puzzel where you must connect the pipes to create a path that connects all the pipes. Similarly, Linked Lunancy is about building a bridge to connect two sides and using logic to build the bridge. 
-- *Influence #2*: Tetris 99 
+- Influence #2: Tetris 99 
   - Medium: Video Game
   - Explanation: Tetris 99 is about matching and connecting pieces to clear blocks as pieces fall down. The more blocks cleared, the more points earned. Similarly, Linked Lunancy will have bridge pieces that are continuously given to the player and they must use those pieces to connect the bridge. Loss points/fail when bridge piece nodes are not correctly connected.
-- *Influence #3*: Human Resource Machine
+- Influence #3: Human Resource Machine
   - Medium: Video Game
   - Explanation: Human Resource Machine teaches programming logic through interactive puzzles rather than lectures. Linked Lunacy follows a similar approach by teaching linked list operations through visual experimentation, mistake correction, and level based challenges.
-- *Influence #4*: Earthbound
+- Influence #4: Earthbound
   - Medium: Video Game
   - Explanation: the character and art design is meant to be pixel similar to that of Earthbound to create and warm and fun game art style. Also gives it a more authentic game feel and in general more inviting.   
 
@@ -56,33 +56,33 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 
 ## Learning Objectives
 
-- *Singly and Doubly Linked List Structure*: *Players will be able to identify what kind of linked list (double or single) is given to them based on the structure*
-- *Linked List Traversal*: *Students will be able to traverse through a linked list from either the head or tail of the linked list from code statements of "prev" and "next"*
-- *Insertion and Deletion*: *Students will be able to insert or delete nodes at the beginning, end, or middle of a linked list while keeping the data structure intact and functioning as intended*
-- *Pointer Relationships*: *Players will be able to identify whether pointer connections between nodes are correct or broken*
+- Singly and Doubly Linked List Structure: Players will be able to identify what kind of linked list (double or single) is given to them based on the structure
+- Linked List Traversal: Students will be able to traverse through a linked list from either the head or tail of the linked list from code statements of "prev" and "next"
+- Insertion and Deletion: Students will be able to insert or delete nodes at the beginning, end, or middle of a linked list while keeping the data structure intact and functioning as intended
+- Pointer Relationships: Players will be able to identify whether pointer connections between nodes are correct or broken
 
 ## Prerequisite Knowledge
 
-- *Prior to the game, players should explain the differences and similarities between a linked list and an array*
-- *Prior to the game, players must be a able to create and identify the conponents of objects in either python/javascript/typescript/C/C++ or some other programming language that uses objects*
-- *Players should be familiar with basic programming terminology such as variables, objects, and references*
-- *Players should be able to follow simple logical instructions similar to pseudocode*
+- Prior to the game, players should explain the differences and similarities between a linked list and an array
+- Prior to the game, players must be a able to create and identify the conponents of objects in either python/javascript/typescript/C/C++ or some other programming language that uses objects
+- Players should be familiar with basic programming terminology such as variables, objects, and references
+- Players should be able to follow simple logical instructions similar to pseudocode
 
 ## Assessment Measures
 
-- *Given a linked list and statements traversing through the linked list, correctly identify the resulting node (logic)*
-- *Given a node and linked list, insert the node while maintaining the proper linked list structure (rubic)*
-- *Given a broken linked list, correctly repair the pointer connection so that the list can be fully traversed (logic)*
-- *Given a linked list structure, identify whether the structure represents a singly or doubly linked list (logic)*
+- Given a linked list and statements traversing through the linked list, correctly identify the resulting node (logic)
+- Given a node and linked list, insert the node while maintaining the proper linked list structure (rubic)
+- Given a broken linked list, correctly repair the pointer connection so that the list can be fully traversed (logic)
+- Given a linked list structure, identify whether the structure represents a singly or doubly linked list (logic)
 
 
 # What sets this project apart?
 
-- *Provides a visually appealing and fun way to learn linked list*
-- *The game can be played by people outside of the computer science field and be played by people who enjoy logic puzzles*
-- *Offers various modes of playing to learn different concepts including doubly linked list and singly linked list*
-- *Transforms abstract pointer relationships into visual and interactive gameplay mechanics*
-- *Encourages experimentation and problem solving rather than memorization of code syntax*
+- Provides a visually appealing and fun way to learn linked list
+- The game can be played by people outside of the computer science field and be played by people who enjoy logic puzzles
+- Offers various modes of playing to learn different concepts including doubly linked list and singly linked list
+- Transforms abstract pointer relationships into visual and interactive gameplay mechanics
+- Encourages experimentation and problem solving rather than memorization of code syntax
 
 
 # Player Interaction Patterns and Modes
@@ -93,22 +93,22 @@ Players interact with the game using a mouse and keyboard. Nodes and pointer con
 
 ## Player Modes
 
-- *Main Menu*: *Allows players to start the game through choosign a type of linked list challenge.*
-- *Gameplay Mode*: *Players solve linked list puzzles involving traversal, insertion, deletion, and structure identification. As players answer questions correctly, the difficulty increases by introducing more complex linked list operations and larger node structures.*
-- *Game Over/Results*: *After the player makes too mny mistakes or completes a sequence of puzzles, the game displays the player's performance statistics such as number of correct answers, accuracy, and highest difficulty reached.*
+- Main Menu: Allows players to start the game through choosign a type of linked list challenge.
+- Gameplay Mode: Players solve linked list puzzles involving traversal, insertion, deletion, and structure identification. As players answer questions correctly, the difficulty increases by introducing more complex linked list operations and larger node structures.
+- Game Over/Results: After the player makes too mny mistakes or completes a sequence of puzzles, the game displays the player's performance statistics such as number of correct answers, accuracy, and highest difficulty reached.
 
 
 # Gameplay Objectives
 
-- *Primary Objective #1*:
-    - Description: *Construct or repair a bridge of nodes so that all nodes are correctly connected and traversable from the head node.*
-    - Alignment: *Supports learning objectives related to identifying linked list structures and pointer relationships.*
-- *Primary Objective #2*:
-    - Description: *Correctly insert or remove nodes without breaking the overall linked list structure.*
-    - Alignment: *Directly aligns with insertion and deletion learning objectives*
-- *Primary Objective #3*:
-    - Description: *Follow traversal instructions and identify the correct resulting node.*
-    - Alignment: *Supports the linked list traversal learning objective.*
+- Primary Objective #1:
+    - Description: Construct or repair a bridge of nodes so that all nodes are correctly connected and traversable from the head node.
+    - Alignment: Supports learning objectives related to identifying linked list structures and pointer relationships.
+- Primary Objective #2:
+    - Description: Correctly insert or remove nodes without breaking the overall linked list structure.
+    - Alignment: Directly aligns with insertion and deletion learning objectives
+- Primary Objective #3:
+    - Description: Follow traversal instructions and identify the correct resulting node.
+    - Alignment: Supports the linked list traversal learning objective.
 
 
 # Procedures/Actions
@@ -146,9 +146,9 @@ The game tracks the number of incorrect answers the player makes. If the player 
 
 ## Core Gameplay Mechanics (Detailed)
 
-- *Pointer Connection System*: *Players interact with the linked list by dragging pointer connectors between nodes. These connectors represent the next or prev relationships within the linked list. Correct pointer connections allow the structure to function properly, while incorrect connections break the list and prevent traversal.*
-- *Traversal Challenges*: *Players are given traversal expressions similar to programming syntax, such as head -> next -> next. The player must determine which node the traversal ends on by following the pointer connections step by step through the linked list.*
-- *Node Insertion and Deletion*: *Players modify the linked list by inserting new nodes into the correct position or removing nodes from the structure. To succeed, players must update the surrounding pointer connections so the linked list remains valid and traversable.*
+- Pointer Connection System: Players interact with the linked list by dragging pointer connectors between nodes. These connectors represent the next or prev relationships within the linked list. Correct pointer connections allow the structure to function properly, while incorrect connections break the list and prevent traversal.
+- Traversal Challenges: Players are given traversal expressions similar to programming syntax, such as head -> next -> next. The player must determine which node the traversal ends on by following the pointer connections step by step through the linked list.
+- Node Insertion and Deletion: Players modify the linked list by inserting new nodes into the correct position or removing nodes from the structure. To succeed, players must update the surrounding pointer connections so the linked list remains valid and traversable.
    
 ## Feedback
 
@@ -175,16 +175,16 @@ A traveler needs to cross a broken bridge made of connected tiles, but many of t
 
 ## Storyboarding
 
-*Go into as much detail as needs be to visually convey the Dynamics of your game. Be detailed. Create storyboards and freeze frame images that concisely capture important key elements of your game. You are strongly recommended to sketch pictures on paper and embed them here. Be sure make it clear how previously-described mechanics come through in the dynamics.*
-
 https://drive.google.com/file/d/1G_LkTDzM-ff1XqdCN4sFte8nYnCOAZKN/view?usp=sharing
 A rough sketch of a storyboard of the game
-- *Scene 1*: The inital state of the game in which the player is given a gorup of bridge tiles (nodes) and must place and connect them correctly through a click and drag function
-- *Scene 2*: The second scene shows a successfully completed bridge 
-- *Scene 3*: The third scene is the player given statements of code the shows the correct in order in which to travel the bridge as to not get blown off
-- *Scene 4*: Scene 4 is an example of the player landing on the correct tile node and progressing to the next stage
-- *Scene 5*: The 5th scene is a different level in which the player is given a broken bridge and must correctly connect the tiles
-- *Scene 6*: The 6th scene is what happens when the bridge is incorrectly fixed in which one of the pointers snaps and bridge collapses as and the player falls into the river
+- Scene 1: The inital state of the game in which the player is given a gorup of bridge tiles (nodes) and must place and connect them correctly through a click and drag function
+- Scene 2: The second scene shows a successfully completed bridge 
+- Scene 3: The third scene is the player given statements of code the shows the correct in order in which to travel the bridge as to not get blown off
+- Scene 4: Scene 4 is an example of the player landing on the correct tile node and progressing to the next stage
+- Scene 5: The 5th scene is a different level in which the player is given a broken bridge and must correctly connect the tiles
+- Scene 6: The 6th scene is what happens when the bridge is incorrectly fixed in which one of the pointers snaps and bridge collapses as and the player falls into the river
+
+
 # Assets Needed
 
 ## Aesthetics
@@ -198,9 +198,9 @@ The overall atmosphere should feel adventurous and outdoorsy, with warm natural 
 ## Graphical
 
 - Characters List:
-  - *Alex, a playable character with brown hair, blue eyes, a red striped shirt, jeans, and red converse-like shoes. Standard all around character* ![Alt text](Alex_standing.png)
-  - *Amy, another playable character with long curly black hair, yellow shirt, and brown pants.*
-  - *Neo, another playable character with a blond hair, a blue shirt, and black pants*
+  - Alex, a playable character with brown hair, blue eyes, a red striped shirt, jeans, and red converse-like shoes. Standard all around character ![Alt text](Alex_standing.png)
+  - Amy, another playable character with long curly black hair, yellow shirt, and brown pants.
+  - Neo, another playable character with a blond hair, a blue shirt, and black pants
 - Textures
   - Node tile textures
   - Pointer connector textures
@@ -213,16 +213,16 @@ The overall atmosphere should feel adventurous and outdoorsy, with warm natural 
 ## Audio
 
 - Music List (Ambient sound)
-  - *Main Menu*: *calm digital ambience*
-  - *Gameplay*: *light puzzle-themed background music*
-  - *Results screen*: *short completion theme*
+  - Main Menu: calm digital ambience
+  - Gameplay: light puzzle-themed background music
+  - Results screen: short completion theme
   
 - Sound List (SFX)
-  - *Pointer connected*: *soft click*
-  - *Incorrect connection*: *error buzz*
-  - *Node inserted*: *pop or placement sound*
-  - *Node removed*: *dissolve sound*
-  - *Puzzle complete*: *success chime that invokes successful journey* Example: https://www.youtube.com/watch?v=-sspGNVHl8E&list=RD-sspGNVHl8E&start_radio=1
+  - Pointer connected: soft click
+  - Incorrect connection: error buzz
+  - Node inserted: pop or placement sound
+  - Node removed: dissolve sound
+  - Puzzle complete: success chime that invokes successful journey Example: https://www.youtube.com/watch?v=-sspGNVHl8E&list=RD-sspGNVHl8E&start_radio=1
 
 # Metadata
 
