@@ -225,7 +225,7 @@ A traveler needs to cross a broken bridge made of connected tiles, but many of t
 
 ## Storyboarding
 
-https://drive.google.com/file/d/1G_LkTDzM-ff1XqdCN4sFte8nYnCOAZKN/view?usp=sharing
+![Alt text](storyboard.JPG)
 A rough sketch of a storyboard of the game
 - Scene 1: The inital state of the game in which the player is given a gorup of bridge tiles (nodes) and must place and connect them correctly through a click and drag function
 - Scene 2: The second scene shows a successfully completed bridge 
