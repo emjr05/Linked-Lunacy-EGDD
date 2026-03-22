@@ -78,8 +78,8 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
   // head -> [5] -> [8] -> [12] -> null
   let result = head.next.next;
   ```
-
-  What is the value of result? Answer: 12
+    
+    - Answer: 12
 
   - In game scenario: The hiker is standing at the start of the bridge. Follow the correct path using the instructions below to determine where the hiker will end up.
     - Bridge:
@@ -101,10 +101,10 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
   head.next = newNode;
   ```
 
-  Result: head -> [5] -> [10] -> [8] -> null
-  Grading:
-    - New node points to correct next node
-    - Previous node connects to correct new node
+    - Result: head -> [5] -> [10] -> [8] -> null
+    - Grading:
+      - New node points to correct next node
+      - Previous node connects to correct new node
         
   - In game scenario: The bridge has a gap! Insert the missing plank so the hiker can safely cross.
     - Bridge:
@@ -125,8 +125,8 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
   head.next = null; // incorrect
   ```
 
-  Fix: head.next = node8;
-  Result: head -> [5] -> [8] -> [12] -> null
+    - Fix: head.next = node8;
+    - Result: head -> [5] -> [8] -> [12] -> null
 
   - In game scenario: A rope between two bridge planks has snapped! The hiker cannot cross until the bridge is repaired.
     - Bridge:
@@ -146,7 +146,7 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
   node1.next = node2;
   ```
 
-  Answer: Doubly, because nodes have both next and prev, meaning you can move forwards and backwards.
+    - Answer: Doubly, because nodes have both next and prev, meaning you can move forwards and backwards.
 
   - In game scenario: Some bridges only allow movement forward, while others allow movement in both directions. Identify which type this bridge is.
     - Bridge:
