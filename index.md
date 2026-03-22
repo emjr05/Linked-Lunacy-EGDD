@@ -71,7 +71,9 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 ## Assessment Measures
 
 - Given a linked list and statements traversing through the linked list, correctly identify the resulting node (logic)
-  - Ex: ```
+  - Ex: Identify the result node.
+
+        ```js
         // Linked List
         // head -> [5] -> [8] -> [12] -> null
         let result = head.next.next;
@@ -80,13 +82,19 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
         What is the value of result? Answer: 12
 
     - In game scenario: The hiker is standing at the start of the bridge. Follow the correct path using the instructions below to determine where the hiker will end up.
-      - Bridge: [5] -> [8] -> [12]
+      - Bridge:
+      
+      ```js
+      [5] -> [8] -> [12]
+      ```
+
       - Instructions: head -> next -> next
       - Player task: Click the bridge tile where the hiker will land.
 
 - Given a node and linked list, insert the node while maintaining the proper linked list structure (rubic)
   - Ex: Insert a node with value 10 between 5 and 8.
-        ```
+        
+        ```js
         // head -> [5] -> [8] -> null
         let newNode = { value: 10, next: null };
         newNode.next = head.next;
@@ -99,12 +107,19 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
           - Previous node connects to correct new node
         
     - In game scenario: The bridge has a gap! Insert the missing plank so the hiker can safely cross.
-      - Bridge: [5] -> [8]
+      - Bridge:
+
+        ```js
+        [5] -> [8]
+        ```
+
       - New given tile: [10]
       - Instructions: Drag the tile into the correct position so the bridge remains properly connected.
 
 - Given a broken linked list, correctly repair the pointer connection so that the list can be fully traversed (logic)
-  - Ex: ```
+  - Ex: Repair the broken linked list.
+        
+        ```js
         // head -> [5]    [8] -> [12] -> null
         // (broken link between 5 and 8)
         head.next = null; // incorrect
@@ -114,21 +129,32 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
         Result: head -> [5] -> [8] -> [12] -> null
 
     - In game scenario: A rope between two bridge planks has snapped! The hiker cannot cross until the bridge is repaired.
-      - Bridge: [5]    [8] -> [12]
+      - Bridge:
+
+        ```js
+        [5]    [8] -> [12]
+        ```
+
       - Instructions: Reconnect the broken link so the hiker can travel across the entire bridge.
 
 - Given a linked list structure, identify whether the structure represents a singly or doubly linked list (logic)
-  - Ex: ```
+  - Ex: Is this singly or doubly linked?
+        
+        ```js
         let node1 = { value: 5, next: null, prev: null };
         let node2 = { value: 8, next: null, prev: node1 };
         node1.next = node2;
         ```
 
-        Is this singly or doubly linked?
         Answer: Doubly, because nodes have both next and prev, meaning you can move forwards and backwards.
-        
+
     - In game scenario: Some bridges only allow movement forward, while others allow movement in both directions. Identify which type this bridge is.
-      - Bridge: null <- [5] <-> [8] <-> [12] -> null
+      - Bridge:
+
+          ```js
+          null <- [5] <-> [8] <-> [12] -> null
+          ```
+
       - Instructions: Select what type of bridge this is:
         1. Singly linked bridge
         2. Soubly linked bridge
