@@ -71,9 +71,11 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 ## Assessment Measures
 
 - Given a linked list and statements traversing through the linked list, correctly identify the resulting node (logic)
-  - Ex: // Linked List
+  - Ex: ```
+        // Linked List
         // head -> [5] -> [8] -> [12] -> null
         let result = head.next.next;
+        ```
 
         What is the value of result? Answer: 12
 
@@ -84,12 +86,14 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
 
 - Given a node and linked list, insert the node while maintaining the proper linked list structure (rubic)
   - Ex: Insert a node with value 10 between 5 and 8.
+        ```
         // head -> [5] -> [8] -> null
         let newNode = { value: 10, next: null };
         newNode.next = head.next;
         head.next = newNode;
+        ```
 
-        // Result: head -> [5] -> [10] -> [8] -> null
+        Result: head -> [5] -> [10] -> [8] -> null
         Grading:
           - New node points to correct next node
           - Previous node connects to correct new node
@@ -100,25 +104,29 @@ Linked Lunacy is a puzzle based educational game where players repair, reorder, 
       - Instructions: Drag the tile into the correct position so the bridge remains properly connected.
 
 - Given a broken linked list, correctly repair the pointer connection so that the list can be fully traversed (logic)
-  - Ex: // head -> [5]    [8] -> [12] -> null
+  - Ex: ```
+        // head -> [5]    [8] -> [12] -> null
         // (broken link between 5 and 8)
         head.next = null; // incorrect
+        ```
 
-        // Fix: head.next = node8;
-        // Result: head -> [5] -> [8] -> [12] -> null
+        Fix: head.next = node8;
+        Result: head -> [5] -> [8] -> [12] -> null
 
     - In game scenario: A rope between two bridge planks has snapped! The hiker cannot cross until the bridge is repaired.
       - Bridge: [5]    [8] -> [12]
       - Instructions: Reconnect the broken link so the hiker can travel across the entire bridge.
 
 - Given a linked list structure, identify whether the structure represents a singly or doubly linked list (logic)
-  - Ex: let node1 = { value: 5, next: null, prev: null };
+  - Ex: ```
+        let node1 = { value: 5, next: null, prev: null };
         let node2 = { value: 8, next: null, prev: node1 };
         node1.next = node2;
+        ```
 
         Is this singly or doubly linked?
         Answer: Doubly, because nodes have both next and prev, meaning you can move forwards and backwards.
-
+        
     - In game scenario: Some bridges only allow movement forward, while others allow movement in both directions. Identify which type this bridge is.
       - Bridge: null <- [5] <-> [8] <-> [12] -> null
       - Instructions: Select what type of bridge this is:
