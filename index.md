@@ -240,6 +240,11 @@ The game tracks the number of incorrect answers the player makes. If the player 
 
 Players receive immediate visual feedback after performing actions. Correct pointer connections may glow or highlight to indicate a valid linked list structure. Incorrect connections may flash red or break visually to show that the structure is invalid. Traversal tasks may include animated movement across nodes so the player can visually follow the path taken through the linked list.
 
+Code Execution:
+- Submitted code is executed
+  - If correct: bridge updates successfully (visual of )
+  - If incorrect: bridge breaks (visual)
+
 After completing puzzles or reaching the end of a game session, players are shown performance statistics such as the number of correct answers, accuracy percentage, and the highest difficulty level reached. This allows players to track their improvement as they progress through increasingly difficult linked list challenges.
 
 
