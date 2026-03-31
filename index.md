@@ -171,6 +171,8 @@ Players can perform several actions during gameplay:
 - Remove nodes from the linked list while maintaining a valid structure
 - Follow traversal instructions to determine which node is reached
 - Submit their answer to confirm the solution
+- On some levels, have the players manually type the code that then visually creates the bridge
+- Some levels, have the players type the code that creates a traversal through the bridge
 - Progress to the next puzzle if the solution is correct
 
 
