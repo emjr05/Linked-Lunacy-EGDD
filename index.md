@@ -179,7 +179,7 @@ Players interact with the game using a mouse and keyboard. Nodes and pointer con
 
 - Main Menu: Allows players to start the game through choosign a type of linked list challenge.
 - Gameplay Mode: Players solve linked list puzzles involving traversal, insertion, deletion, and structure identification. As players answer questions correctly, the difficulty increases by introducing more complex linked list operations and larger node structures.
-- Game Over/Results: After the player makes too mny mistakes or completes a sequence of puzzles, the game displays the player's performance statistics such as number of correct answers, accuracy, and highest difficulty reached.
+- Game Over/Results: After the player makes too many mistakes or completes a sequence of puzzles, the game displays the player's performance statistics such as number of correct answers, accuracy, and highest difficulty reached.
 
 
 # Gameplay Objectives
@@ -204,9 +204,9 @@ Players can perform several actions during gameplay:
 - Insert new nodes into the linked list at valid positions
 - Remove nodes from the linked list while maintaining a valid structure
 - Follow traversal instructions to determine which node is reached
+- On some levels, make the players write code to build the bridge
+- On some levels, make the players write code that correctly traverses the bridge in a certain order
 - Submit their answer to confirm the solution
-- On some levels, have the players manually type the code that then visually creates the bridge
-- Some levels, have the players type the code that creates a traversal through the bridge
 - Progress to the next puzzle if the solution is correct
 
 
