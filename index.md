@@ -201,8 +201,11 @@ Players interact with the game primarily using a mouse. The player is presented 
 
 Players can perform several actions during gameplay:
 - Drag pointer connectors between nodes to repair or modify the linked list
+  - Code Visual: Dragging a pointer = assigning .next or .prev
 - Insert new nodes into the linked list at valid positions
+  - Code Visual: Inserting a node = multiple pointer updates
 - Remove nodes from the linked list while maintaining a valid structure
+  - Code Visual: Deleting a node = reassigning pointers
 - Follow traversal instructions to determine which node is reached
 - On some levels, make the players write code to build the bridge
 - On some levels, make the players write code that correctly traverses the bridge in a certain order
@@ -235,6 +238,7 @@ The game tracks the number of incorrect answers the player makes. If the player 
 - Pointer Connection System: Players interact with the linked list by dragging pointer connectors between nodes. These connectors represent the next or prev relationships within the linked list. Correct pointer connections allow the structure to function properly, while incorrect connections break the list and prevent traversal.
 - Traversal Challenges: Players are given traversal expressions similar to programming syntax, such as head -> next -> next. The player must determine which node the traversal ends on by following the pointer connections step by step through the linked list.
 - Node Insertion and Deletion: Players modify the linked list by inserting new nodes into the correct position or removing nodes from the structure. To succeed, players must update the surrounding pointer connections so the linked list remains valid and traversable.
+- The game keeps an internal model of the linked list. Player actions modify that model, code is generated from that model, and code is evaluated to check correctness.
    
 ## Feedback
 
@@ -242,7 +246,7 @@ Players receive immediate visual feedback after performing actions. Correct poin
 
 Code Execution:
 - Submitted code is executed
-  - If correct: bridge updates successfully (visual of )
+  - If correct: bridge updates successfully (visual)
   - If incorrect: bridge breaks (visual)
 
 After completing puzzles or reaching the end of a game session, players are shown performance statistics such as the number of correct answers, accuracy percentage, and the highest difficulty level reached. This allows players to track their improvement as they progress through increasingly difficult linked list challenges.
