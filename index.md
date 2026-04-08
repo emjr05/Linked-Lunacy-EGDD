@@ -208,6 +208,7 @@ Players can perform several actions during gameplay:
   - Code Visual: Deleting a node = reassigning pointers
 - Follow traversal instructions to determine which node is reached
 - On some levels, make the players write code to build the bridge
+  - Potentially through fill-in-the-blank or text editor question
 - On some levels, make the players write code that correctly traverses the bridge in a certain order
 - Submit their answer to confirm the solution
 - Progress to the next puzzle if the solution is correct
@@ -256,13 +257,13 @@ After completing puzzles or reaching the end of a game session, players are show
 
 ## Presentation of Rules
 
-The game introduces players to linked list mechanics gradually through puzzle progression. Early puzzles focus on simple traversal tasks involving small linked lists. As players solve puzzles correctly, the game introduces more complex actions such as inserting and deleting nodes. By learning through interaction with the linked list structures, players develop an intuitive understanding of how node connections and pointer relationships function.
+The game introduces players to linked list mechanics gradually through puzzle progression. Early puzzles focus on simple traversal tasks involving small linked lists where the user can visually see the code as the bridge tiles are moved. As players solve puzzles correctly, the game introduces more complex actions such as inserting and deleting nodes along with physically typing in the code for fixing the bridge rather than just dragging the tiles. By learning through interaction with the linked list structures, players develop an intuitive understanding of how node connections and pointer relationships function.
 
 ## Presentation of Content
 
 The educational content is integrated directly into the puzzles themselves. Instead of reading explanations, players learn linked list concepts by solving increasingly complex problems involving traversal, insertion, and deletion.
 
-Visual representations of nodes and pointer connections help translate abstract programming concepts into interactive gameplay elements.
+Visual representations of nodes and pointer connections help translate abstract programming concepts into interactive gameplay elements. While playing, the user can visually see the code changing depending on the connections between nodes. This allows the user to connect the visual appearance of the bridge to the code that is actively changing as nodes/tiles move around. This creates an interactive experience for the user, reinforcing pointer logic through cause/effect.
 
 ## Story (Brief)
 
